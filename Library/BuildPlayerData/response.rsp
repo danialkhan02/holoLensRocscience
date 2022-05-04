@@ -1,3 +1,4 @@
+-a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll"
