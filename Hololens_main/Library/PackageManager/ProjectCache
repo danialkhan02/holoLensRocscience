@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637872724431977483
+      ticks: 637872734378044768
     m_Hash: 2324560393
   m_LockFileStatus:
     m_FilePath: C:/holoLensRocscience/Hololens_main/Packages/packages-lock.json
@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637872725754505979
-    m_Hash: 3668370503
+      ticks: 637872735097802932
+    m_Hash: 926782877
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.0
       source: 6
-      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.openxr@5a47f0ebc6f9-1651675643130
+      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.openxr@5a47f0ebc6f9-1651676637743
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -109,7 +109,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@8acda29b8514-1651675643175
+      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@8acda29b8514-1651676637778
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -175,7 +175,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@e6ba8f017977-1651675643198
+      resolvedPath: C:\holoLensRocscience\Hololens_main\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@e6ba8f017977-1651676637797
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -4404,13 +4404,17 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.1-preview.3
+        - 1.0.0
         - 1.0.1
         compatible:
+        - 0.0.1-preview.3
+        - 1.0.0
         - 1.0.1
         verified: 1.0.1
       dependencies:
       - name: com.unity.subsystemregistration
-        version: 1.0.6
+        version: 1.0.5
       resolvedDependencies:
       - name: com.unity.subsystemregistration
         version: 1.1.0
@@ -4434,13 +4438,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637056471600000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
-        revision: e4d74ea2d737ed36976840f753a2817ef9e4e56d
+        revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
         path: 
     - packageId: com.unity.xr.arsubsystems@4.1.9
       testable: 0
@@ -5142,7 +5146,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637872724431297344
+        ticks: 637872734377434970
       m_Hash: 3343198222
     - m_FilePath: C:\holoLensRocscience\Hololens_main\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
       m_PathExists: 0
@@ -5156,7 +5160,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637872724431745884
+        ticks: 637872734377779653
       m_Hash: 3313935279
     - m_FilePath: C:\holoLensRocscience\Hololens_main\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
       m_PathExists: 0
@@ -5170,7 +5174,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637872724431977483
+        ticks: 637872734377965163
       m_Hash: 418450698
 m_ProjectPath: C:/holoLensRocscience/Hololens_main/Packages
 m_EditorVersion: 2020.3.31f1 (6b54b7616050)
