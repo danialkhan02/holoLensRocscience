@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Main_hololens.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
