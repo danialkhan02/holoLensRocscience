@@ -17,7 +17,7 @@ public class Positional_Dependency : MonoBehaviour
         table = gameObject.GetComponentInParent<Positional_Flag>().table_flag;
 
         if (table ==1){
-            transform.position = new Vector3(-0.44f,0.6f,-4.77f);
+            transform.position = new Vector3(-0.55f,0.89f,-3.77f);
         } else {
             transform.position = new Vector3(-1000,-1000,-1000);
         }

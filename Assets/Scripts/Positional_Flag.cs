@@ -18,7 +18,7 @@ public class Positional_Flag : MonoBehaviour
         double z_pos = transform.position.z;
         double x_pos = transform.position.x;
 
-        if(x_pos >=-3.5f && x_pos <= 0.5f && z_pos <=3.3){
+        if(x_pos >=-2f && x_pos <= 1.1f && z_pos <=-0.65f){
             table_flag = 1;
         } else {
             table_flag = 0;
