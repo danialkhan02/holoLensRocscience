@@ -1,9 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
+<<<<<<< HEAD
     Assembly-CSharp.dll:
     - Bounding_script
     - ModelSelector
     - Place_Camera
+=======
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
+    Assembly-CSharp.dll:
+    - Bounding_script
+    - Place_Camera
+    - Positional_Dependency
+    - Positional_Flag
+    - Readme
+>>>>>>> 8f281383 ( Update)
     Microsoft.MixedReality.OpenXR.dll:
     - Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile
     - Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin
@@ -178,11 +189,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 1606}
     - Class: 114
       Script: {instanceID: 1610}
@@ -210,9 +224,35 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2886}
     - Class: 114
       Script: {instanceID: 2894}
+=======
+      Script: {instanceID: 1610}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 1926}
     - Class: 114
+      Script: {instanceID: 2090}
+    - Class: 114
+      Script: {instanceID: 2360}
+    - Class: 114
+      Script: {instanceID: 2588}
+    - Class: 114
+      Script: {instanceID: 2592}
+    - Class: 114
+      Script: {instanceID: 2710}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2948}
+    - Class: 114
+      Script: {instanceID: 2980}
+    - Class: 114
+      Script: {instanceID: 2988}
+>>>>>>> 8f281383 ( Update)
+    - Class: 114
+      Script: {instanceID: 3126}
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 3014}
     - Class: 114
       Script: {instanceID: 3022}
@@ -230,9 +270,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3504}
     - Class: 114
       Script: {instanceID: 3650}
+=======
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3278}
+    - Class: 114
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3612}
+    - Class: 114
+      Script: {instanceID: 3652}
+    - Class: 114
+      Script: {instanceID: 3880}
+    - Class: 114
+      Script: {instanceID: 3974}
+    - Class: 114
+      Script: {instanceID: 4018}
+>>>>>>> 8f281383 ( Update)
     - Class: 114
       Script: {instanceID: 3690}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 3922}
     - Class: 114
       Script: {instanceID: 4058}
@@ -246,9 +306,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4518}
     - Class: 114
       Script: {instanceID: 4534}
+=======
+      Script: {instanceID: 4470}
     - Class: 114
-      Script: {instanceID: 4574}
+      Script: {instanceID: 4486}
     - Class: 114
+      Script: {instanceID: 4700}
+    - Class: 114
+      Script: {instanceID: 4714}
+>>>>>>> 8f281383 ( Update)
+    - Class: 114
+      Script: {instanceID: 4762}
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 4696}
     - Class: 114
       Script: {instanceID: 4750}
@@ -274,9 +344,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 5766}
+=======
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 4884}
     - Class: 114
+      Script: {instanceID: 4988}
+    - Class: 114
+      Script: {instanceID: 5248}
+    - Class: 114
+      Script: {instanceID: 5438}
+    - Class: 114
+      Script: {instanceID: 5520}
+    - Class: 114
+      Script: {instanceID: 5656}
+    - Class: 114
+      Script: {instanceID: 5764}
+    - Class: 114
+      Script: {instanceID: 5870}
+>>>>>>> 8f281383 ( Update)
+    - Class: 114
+      Script: {instanceID: 6050}
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 5930}
     - Class: 114
       Script: {instanceID: 5936}
@@ -336,6 +426,53 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9338}
     - Class: 114
       Script: {instanceID: 9368}
+=======
+      Script: {instanceID: 6076}
+    - Class: 114
+      Script: {instanceID: 6152}
+    - Class: 114
+      Script: {instanceID: 6280}
+    - Class: 114
+      Script: {instanceID: 6336}
+    - Class: 114
+      Script: {instanceID: 6570}
+    - Class: 114
+      Script: {instanceID: 6590}
+    - Class: 114
+      Script: {instanceID: 6754}
+    - Class: 114
+      Script: {instanceID: 6910}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7178}
+    - Class: 114
+      Script: {instanceID: 7450}
+    - Class: 114
+      Script: {instanceID: 7636}
+    - Class: 114
+      Script: {instanceID: 7710}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 8032}
+    - Class: 114
+      Script: {instanceID: 8196}
+    - Class: 114
+      Script: {instanceID: 8230}
+    - Class: 114
+      Script: {instanceID: 8716}
+    - Class: 114
+      Script: {instanceID: 8768}
+    - Class: 114
+      Script: {instanceID: 8956}
+    - Class: 114
+      Script: {instanceID: 9226}
+    - Class: 114
+      Script: {instanceID: 9246}
+    - Class: 114
+      Script: {instanceID: 9276}
+>>>>>>> 8f281383 ( Update)
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -797,12 +934,15 @@ ScriptsOnlyBuild:
     className: ProBuilderShape
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
+=======
+>>>>>>> 8f281383 ( Update)
       Hash: 831867c54278cbd7f0287186a255cc90
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.CameraSystem
@@ -1257,6 +1397,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: FixedRotationToUserConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 418398e4611e1c6e6b59552c2e6f340e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Positional_Flag
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1883,12 +2029,15 @@ ScriptsOnlyBuild:
     className: Bounding_script
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: dd7520b7d4e690e8c593273e7b9fbe80
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
+=======
+>>>>>>> 8f281383 ( Update)
       Hash: 2f64f48aa310fead73b32bb3060a9d11
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -2213,6 +2362,12 @@ ScriptsOnlyBuild:
     className: ButtonSizeOffset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Positional_Dependency
+  - hash:
+      serializedVersion: 2
       Hash: fc17e31117ee907b8bece95108976dc5
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -2453,12 +2608,15 @@ ScriptsOnlyBuild:
     className: Entity
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
       Hash: 6663435805926faf16934aed992cd26b
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark03
   - hash:
       serializedVersion: 2
+=======
+>>>>>>> 8f281383 ( Update)
       Hash: 8bb99954ad60ced3debe38a0801108b2
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
@@ -3342,4 +3500,8 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/Scenes/newFinalProject.unity
+<<<<<<< HEAD
   playerPath: C:/_builds
+=======
+  playerPath: C:/builds
+>>>>>>> 8f281383 ( Update)
