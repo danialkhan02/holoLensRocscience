@@ -157,7 +157,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[12] =
 	{ (Il2CppRGCTXDataType)2, 354 },
 	{ (Il2CppRGCTXDataType)2, 357 },
 	{ (Il2CppRGCTXDataType)2, 356 },
-	{ (Il2CppRGCTXDataType)3, 49869 },
+	{ (Il2CppRGCTXDataType)3, 49870 },
 	{ (Il2CppRGCTXDataType)2, 353 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystem_AttributeGenerators[];

@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Hololens_Hackathon/Packages/manifest.json
+    m_FilePath: C:/holoLensRocscience/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873629804628048
+      ticks: 637873737939971687
     m_Hash: 3708431690
   m_LockFileStatus:
-    m_FilePath: C:/Hololens_Hackathon/Packages/packages-lock.json
+    m_FilePath: C:/holoLensRocscience/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873610791192589
+      ticks: 637873737940001685
     m_Hash: 3596795167
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.microsoft.mixedreality.openxr@file:C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - packageId: com.microsoft.mixedreality.openxr@file:C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
       testable: 0
       isDirectDependency: 1
       version: 1.4.0
       source: 6
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.microsoft.mixedreality.openxr@7afb85c96e44-1651764278739
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.microsoft.mixedreality.openxr@0327a47224ef-1651776993671
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -102,12 +102,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.examples@file:C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@258097a0de37-1651764279026
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.microsoft.mixedreality.toolkit.examples@e3efefe4b6c0-1651776993921
       assetPath: Packages/com.microsoft.mixedreality.toolkit.examples
       name: com.microsoft.mixedreality.toolkit.examples
       displayName: Mixed Reality Toolkit Examples
@@ -173,12 +173,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.extensions@file:C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@766cb259031c-1651764279035
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.microsoft.mixedreality.toolkit.extensions@0acd24e73244-1651776993928
       assetPath: Packages/com.microsoft.mixedreality.toolkit.extensions
       name: com.microsoft.mixedreality.toolkit.extensions
       displayName: Mixed Reality Toolkit Extensions
@@ -243,12 +243,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.foundation@file:C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@0d3352059f32-1651764279087
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@a9f285431985-1651776993970
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -309,12 +309,12 @@ m_PackageAssets:
         url: https://github.com/microsoft/MixedRealityToolkit-Unity.git
         revision: 
         path: 
-    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+    - packageId: com.microsoft.mixedreality.toolkit.standardassets@file:C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
       testable: 0
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@8c9b6a9e2098-1651673552799
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@7db516b32d4f-1651776993996
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -381,7 +381,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.15.13
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.13
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.collab-proxy@1.15.13
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -517,7 +517,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -634,7 +634,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.14
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -727,7 +727,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.ide.vscode@1.2.5
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -800,7 +800,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.0.4
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.probuilder@5.0.4
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.probuilder@5.0.4
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -955,7 +955,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3-preview.6
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.progrids@3.0.3-preview.6
       assetPath: Packages/com.unity.progrids
       name: com.unity.progrids
       displayName: ProGrids
@@ -1032,7 +1032,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.31
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.test-framework@1.1.31
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1131,7 +1131,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1297,7 +1297,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1463,7 +1463,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1526,7 +1526,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1574,7 +1574,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1622,7 +1622,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1670,7 +1670,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1718,7 +1718,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1766,7 +1766,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1818,7 +1818,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1874,7 +1874,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1923,7 +1923,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1971,7 +1971,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2019,7 +2019,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2067,7 +2067,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2115,7 +2115,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2163,7 +2163,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2215,7 +2215,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2263,7 +2263,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2319,7 +2319,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2371,7 +2371,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2419,7 +2419,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2483,7 +2483,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2531,7 +2531,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2587,7 +2587,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2635,7 +2635,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2691,7 +2691,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2747,7 +2747,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2803,7 +2803,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2875,7 +2875,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2927,7 +2927,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2987,7 +2987,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3049,7 +3049,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3097,7 +3097,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3157,7 +3157,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3209,7 +3209,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3268,7 +3268,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3331,7 +3331,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.3
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.settings-manager@1.0.3
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.settings-manager@1.0.3
       assetPath: Packages/com.unity.settings-manager
       name: com.unity.settings-manager
       displayName: Settings Manager
@@ -3393,7 +3393,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3470,7 +3470,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.7
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.xr.arfoundation@4.1.7
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.xr.arfoundation@4.1.7
       assetPath: Packages/com.unity.xr.arfoundation
       name: com.unity.xr.arfoundation
       displayName: AR Foundation
@@ -3716,7 +3716,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.2.0
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.xr.management@4.2.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.xr.management@4.2.0
       assetPath: Packages/com.unity.xr.management
       name: com.unity.xr.management
       displayName: XR Plugin Management
@@ -3853,7 +3853,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.3.1
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.xr.openxr@1.3.1
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.xr.openxr@1.3.1
       assetPath: Packages/com.unity.xr.openxr
       name: com.unity.xr.openxr
       displayName: OpenXR Plugin
@@ -3956,7 +3956,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.1.9
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
       assetPath: Packages/com.unity.xr.legacyinputhelpers
       name: com.unity.xr.legacyinputhelpers
       displayName: XR Legacy Input Helpers
@@ -4050,7 +4050,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.2
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.inputsystem@1.0.2
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.inputsystem@1.0.2
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -4168,7 +4168,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.9
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.xr.arsubsystems@4.1.9
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.xr.arsubsystems@4.1.9
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -4312,7 +4312,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Hololens_Hackathon\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+      resolvedPath: C:\holoLensRocscience\Library\PackageCache\com.unity.subsystemregistration@1.1.0
       assetPath: Packages/com.unity.subsystemregistration
       name: com.unity.subsystemregistration
       displayName: Subsystem Registration
@@ -4373,75 +4373,75 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz/package.json
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.4.0.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637873610787392927
+        ticks: 637873737936711680
       m_Hash: 3343198222
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz/package.json
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.examples-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637873610790262608
+        ticks: 637873737939211684
       m_Hash: 3612649047
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz/package.json
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.extensions-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637873610790352612
+        ticks: 637873737939281672
       m_Hash: 3675552526
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637873610790872884
+        ticks: 637873737939701696
       m_Hash: 3313935279
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
       m_PathExists: 0
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-    - m_FilePath: C:\Hololens_Hackathon\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
+    - m_FilePath: C:\holoLensRocscience\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637872703527986584
+        ticks: 637873737939961688
       m_Hash: 418450698
-m_ProjectPath: C:/Hololens_Hackathon/Packages
+m_ProjectPath: C:/holoLensRocscience/Packages
 m_EditorVersion: 2020.3.31f1 (6b54b7616050)

@@ -15,7 +15,7 @@ public class ModelSelector : MonoBehaviour
     }
     public void HandleInputData(int val){
         if(val == 0){
-
+            Destroy(GameObject.FindWithTag("Model"));
         }
         if(val == 1){
             Destroy(GameObject.FindWithTag("Model"));
@@ -29,6 +29,10 @@ public class ModelSelector : MonoBehaviour
         if (val == 3){
             Destroy(GameObject.FindWithTag("Model"));
             Instantiate(models[2]);
+        }
+        if(val == 4){
+            Destroy(GameObject.FindWithTag("Model"));
+            Instantiate(models[3]);
         }
     }
 }
