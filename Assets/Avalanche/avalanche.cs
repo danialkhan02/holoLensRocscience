@@ -6,7 +6,7 @@ public class avalanche : MonoBehaviour
 {
 
     public GameObject[] rocks;
-    public int toggle = 0;
+    public int toggle = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +16,21 @@ public class avalanche : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //GetComponentsInChildren<
+        //toggle = gameObject.GetComponentsInChildren<toggle_script>().status;
         if(toggle == 1){
             Instantiate(rocks[0]);
         } else {
             Destroy(GameObject.FindWithTag("Boulder"));
         }
         
+    }
+
+    public void state_change(int help)
+    {
+        if(toggle == 0){
+            toggle = 1;
+        } else {
+            toggle = 0;
+        }
     }
 }
