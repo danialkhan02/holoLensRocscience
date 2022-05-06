@@ -117,7 +117,7 @@ public class ModelSelector : MonoBehaviour
             Destroy(GameObject.FindWithTag("Text"));
             
             models[3].SetActive(true);
-            models[3].transform.position = new Vector3(-0.188f,-0.592f,1.564f);
+            models[3].transform.position = new Vector3(-0.188f,-1.222f,1.564f);
             appBar[3].SetActive(true);
             arrows[3].SetActive(true);
             Instantiate(texts[4]);

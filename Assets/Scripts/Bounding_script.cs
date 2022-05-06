@@ -17,7 +17,7 @@ public class Bounding_script : MonoBehaviour
         double current_pos = transform.position.y;
 
         if(current_pos <= -20){
-            transform.position = new Vector3(-2.59f,1.61f,0.45f);
+            transform.position = new Vector3(-0.395f,0.32f,-1.194f);
             rb.velocity = new Vector3(0,0,0);
         }
     }
