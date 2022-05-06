@@ -9,6 +9,8 @@ public class Bounding_script : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.velocity = RandomVector();
+
     }
 
     // Update is called once per frame
@@ -21,4 +23,9 @@ public class Bounding_script : MonoBehaviour
             rb.velocity = new Vector3(0,0,0);
         }
     }
+
+    Vector3 RandomVector() {
+        return new Vector3(Random.value,Random.value, Random.value);
+    }
+
 }
