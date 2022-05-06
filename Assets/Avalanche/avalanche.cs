@@ -19,8 +19,11 @@ public class avalanche : MonoBehaviour
     {
         //toggle = gameObject.GetComponentsInChildren<toggle_script>().status;
         if(toggle == 1){
-            if(several <=225){
-                Instantiate(rocks[0]);
+            if(several <=2225){
+                if(several %20 == 0){
+                 Instantiate(rocks[0]);   
+                }
+                
                 several++;
             }
         } else {
