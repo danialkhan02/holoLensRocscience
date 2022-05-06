@@ -82,6 +82,8 @@ struct PersistentCallGroup_t9A1D83DA2BA3118C103FA87D93CE92557A956FDC;
 struct RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072;
 // UnityEngine.Renderer
 struct Renderer_t58147AB5B00224FE1460FD47542DC0DA7EC9378C;
+// UnityEngine.Rigidbody
+struct Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A;
 // UnityEngine.UI.Scrollbar
 struct Scrollbar_tECAC7FD315210FC856A3EC60AE1847A66AAF6C28;
 // TMPro.Examples.ShaderPropAnimator
@@ -2940,6 +2942,25 @@ public:
 };
 
 
+// Bounding_script
+struct Bounding_script_t5FF35B984271FA1132D2B03945064793BDCCECD5  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.Rigidbody Bounding_script::rb
+	Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * ___rb_4;
+
+public:
+	inline static int32_t get_offset_of_rb_4() { return static_cast<int32_t>(offsetof(Bounding_script_t5FF35B984271FA1132D2B03945064793BDCCECD5, ___rb_4)); }
+	inline Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * get_rb_4() const { return ___rb_4; }
+	inline Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A ** get_address_of_rb_4() { return &___rb_4; }
+	inline void set_rb_4(Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * value)
+	{
+		___rb_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___rb_4), (void*)value);
+	}
+};
+
+
 // TMPro.Examples.CameraController
 struct CameraController_tDF5613EA209FD0D5A5031FA5CBF05AEBEF441F6D  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -3701,6 +3722,15 @@ public:
 };
 
 
+// Place_Camera
+struct Place_Camera_t1B7B6EBA4183858782E8BB0659192A3D931180B6  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // MRTK.Tutorials.GettingStarted.PlacementHintsController
 struct PlacementHintsController_t705A0244683A721236F3F5EA00041AC7EEA92EEC  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -3747,6 +3777,24 @@ public:
 	{
 		___OnTogglePlacementHints_7 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___OnTogglePlacementHints_7), (void*)value);
+	}
+};
+
+
+// Positional_Dependency
+struct Positional_Dependency_t97802B25C8626C8733B5A16DEC267C14B267441F  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// System.Int32 Positional_Dependency::table
+	int32_t ___table_4;
+
+public:
+	inline static int32_t get_offset_of_table_4() { return static_cast<int32_t>(offsetof(Positional_Dependency_t97802B25C8626C8733B5A16DEC267C14B267441F, ___table_4)); }
+	inline int32_t get_table_4() const { return ___table_4; }
+	inline int32_t* get_address_of_table_4() { return &___table_4; }
+	inline void set_table_4(int32_t value)
+	{
+		___table_4 = value;
 	}
 };
 
@@ -5191,6 +5239,14 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5669[1] = 
+{
+	Bounding_script_t5FF35B984271FA1132D2B03945064793BDCCECD5::get_offset_of_rb_4(),
+};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5671[1] = 
+{
+	Positional_Dependency_t97802B25C8626C8733B5A16DEC267C14B267441F::get_offset_of_table_4(),
+};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5672[1] = 
 {
 	Positional_Flag_tAC48B95F4F3649BD4D6C4744A07EE774897DC192::get_offset_of_table_flag_4(),

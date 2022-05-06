@@ -7,47 +7,96 @@ public class ModelSelector : MonoBehaviour
 {
     public GameObject[] models;
     public GameObject[] texts;
+    public GameObject[] appBar;
+
     // Start is called before the first frame update
     void Start(){
         Destroy(GameObject.FindWithTag("Text"));
         Instantiate(texts[0]);
+       
     }
 
-    void Update(){
-        //Destroy(GameObject.FindWithTag("Model"));
-
-        
-    }
     public void HandleInputData(int val){
         if(val == 0){
-            Destroy(GameObject.FindWithTag("Model"));
+            models[0].SetActive(false);
+            models[1].SetActive(false);
+            models[2].SetActive(false);
+            models[3].SetActive(false);
+
+            appBar[0].SetActive(false);
+            appBar[1].SetActive(false);
+            appBar[2].SetActive(false);
+            appBar[3].SetActive(false);
+
             Destroy(GameObject.FindWithTag("Text"));
             Instantiate(texts[0]);
+           
         }
         if(val == 1){
-            Destroy(GameObject.FindWithTag("Model"));
+            models[1].SetActive(false);
+            models[2].SetActive(false);
+            models[3].SetActive(false);
+
+            appBar[1].SetActive(false);
+            appBar[2].SetActive(false);
+            appBar[3].SetActive(false);
             Destroy(GameObject.FindWithTag("Text"));
-            Instantiate(models[0]);
+
+            models[0].SetActive(true);
+            models[0].transform.position = new Vector3(-0.188f,-0.592f,1.564f);
+            appBar[0].SetActive(true);
             Instantiate(texts[1]);
             
         }
         if(val == 2){
-            Destroy(GameObject.FindWithTag("Model"));
+            models[0].SetActive(false);
+            models[2].SetActive(false);
+            models[3].SetActive(false);
+
+            appBar[0].SetActive(false);
+            appBar[2].SetActive(false);
+            appBar[3].SetActive(false);
+
             Destroy(GameObject.FindWithTag("Text"));
-            Instantiate(models[1]);
+            models[1].SetActive(true);
+            models[1].transform.position = new Vector3(-0.188f,-0.592f,1.564f);
+            appBar[1].SetActive(true);
             Instantiate(texts[2]);
         }
         if (val == 3){
-            Destroy(GameObject.FindWithTag("Model"));
+            models[0].SetActive(false);
+            models[1].SetActive(false);
+            models[3].SetActive(false);
+
+            appBar[0].SetActive(false);
+            appBar[1].SetActive(false);
+            appBar[3].SetActive(false);
             Destroy(GameObject.FindWithTag("Text"));
-            Instantiate(models[2]);
+
+            models[2].SetActive(true);
+            models[2].transform.position = new Vector3(-0.188f,-0.592f,1.564f);
+            appBar[2].SetActive(true);
             Instantiate(texts[3]);
         }
         if(val == 4){
-            Destroy(GameObject.FindWithTag("Model"));
+            models[0].SetActive(false);
+            models[1].SetActive(false);
+            models[2].SetActive(false);
+
+            appBar[0].SetActive(false);
+            appBar[1].SetActive(false);
+            appBar[2].SetActive(false);
+  
+
             Destroy(GameObject.FindWithTag("Text"));
-            Instantiate(models[3]);
+            
+            models[3].SetActive(true);
+            models[3].transform.position = new Vector3(-0.188f,-0.592f,1.564f);
+            appBar[3].SetActive(true);
             Instantiate(texts[4]);
+
+
+
         }
     }
 }

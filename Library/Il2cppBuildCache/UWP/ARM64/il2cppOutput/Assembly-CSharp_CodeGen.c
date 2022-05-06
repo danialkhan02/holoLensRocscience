@@ -12,8 +12,8 @@
 
 
 
-// 0x00000001 System.Void ModelSelector::Update()
-extern void ModelSelector_Update_mEECF084100C9C4F458C899E5666D3B9C9136A3B8 (void);
+// 0x00000001 System.Void ModelSelector::Start()
+extern void ModelSelector_Start_m656ED243C0C68824BEAE4CD9C3F1A3844493C687 (void);
 // 0x00000002 System.Void ModelSelector::HandleInputData(System.Int32)
 extern void ModelSelector_HandleInputData_m0D2713AAED589B69D6AF7E0A362367D4BEB9F4E7 (void);
 // 0x00000003 System.Void ModelSelector::.ctor()
@@ -672,7 +672,7 @@ extern void PlacementHintsControllerDelegate_BeginInvoke_m729BAD5B777CAC07017B39
 extern void PlacementHintsControllerDelegate_EndInvoke_m5245DC13168B9F203E7495622C99EA9C6EC60327 (void);
 static Il2CppMethodPointer s_methodPointers[329] = 
 {
-	ModelSelector_Update_mEECF084100C9C4F458C899E5666D3B9C9136A3B8,
+	ModelSelector_Start_m656ED243C0C68824BEAE4CD9C3F1A3844493C687,
 	ModelSelector_HandleInputData_m0D2713AAED589B69D6AF7E0A362367D4BEB9F4E7,
 	ModelSelector__ctor_m7768EDBC1033173240DF5A6C4C6F16A2734EABF8,
 	Readme__ctor_mF465410C5B2E598F2685E82CFCE1F42186AFF448,

@@ -34,10 +34,25 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerVisual
     - Microsoft.MixedReality.Toolkit.Input.TouchPointer
+    - Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
     - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
+    - Microsoft.MixedReality.Toolkit.UI.AppBar
+    - Microsoft.MixedReality.Toolkit.UI.AppBarButton
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoxDisplayConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.LinksConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.ProximityEffectConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.ScaleHandlesConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.BoundsControl.TranslationHandlesConfiguration
+    - Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper
+    - Microsoft.MixedReality.Toolkit.UI.ButtonIconSet
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
+    - Microsoft.MixedReality.Toolkit.UI.Interactable
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
+    - Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2
+    - Microsoft.MixedReality.Toolkit.UI.States
+    - Microsoft.MixedReality.Toolkit.UI.Theme
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.DirectionalIndicator
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
@@ -48,6 +63,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.GazeProvider
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule
     - Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable
+    - Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable
     - Microsoft.MixedReality.Toolkit.Input.Utilities.CanvasUtility
     Microsoft.MixedReality.Toolkit.dll:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
@@ -75,6 +91,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider
     - Microsoft.MixedReality.Toolkit.Utilities.BezierInertia
     - Microsoft.MixedReality.Toolkit.Utilities.HoverLight
+    - Microsoft.MixedReality.Toolkit.Utilities.MaintainBorderLightWidth
     - Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer
     - Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider
     - Microsoft.MixedReality.Toolkit.Utilities.ProximityLight
@@ -94,6 +111,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -190,7 +208,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1636}
     - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
       Script: {instanceID: 1670}
+    - Class: 114
+      Script: {instanceID: 1698}
+    - Class: 114
+      Script: {instanceID: 1946}
     - Class: 114
       Script: {instanceID: 1954}
     - Class: 114
@@ -199,6 +223,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2362}
     - Class: 114
       Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2486}
     - Class: 114
       Script: {instanceID: 2618}
     - Class: 114
@@ -234,9 +260,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3690}
     - Class: 114
+      Script: {instanceID: 3844}
+    - Class: 114
       Script: {instanceID: 3922}
     - Class: 114
+      Script: {instanceID: 3966}
+    - Class: 114
       Script: {instanceID: 4016}
+    - Class: 114
+      Script: {instanceID: 4028}
+    - Class: 114
+      Script: {instanceID: 4058}
     - Class: 114
       Script: {instanceID: 4060}
     - Class: 114
@@ -262,17 +296,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4820}
     - Class: 114
+      Script: {instanceID: 4834}
+    - Class: 114
       Script: {instanceID: 4936}
     - Class: 114
       Script: {instanceID: 5034}
     - Class: 114
       Script: {instanceID: 5040}
     - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
       Script: {instanceID: 5308}
     - Class: 114
       Script: {instanceID: 5500}
     - Class: 114
       Script: {instanceID: 5584}
+    - Class: 114
+      Script: {instanceID: 5706}
     - Class: 114
       Script: {instanceID: 5720}
     - Class: 114
@@ -288,13 +328,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6146}
     - Class: 114
+      Script: {instanceID: 6208}
+    - Class: 114
       Script: {instanceID: 6222}
     - Class: 114
       Script: {instanceID: 6350}
     - Class: 114
+      Script: {instanceID: 6410}
+    - Class: 114
       Script: {instanceID: 6642}
     - Class: 114
       Script: {instanceID: 6664}
+    - Class: 114
+      Script: {instanceID: 6774}
     - Class: 114
       Script: {instanceID: 6816}
     - Class: 114
@@ -310,6 +356,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7526}
     - Class: 114
+      Script: {instanceID: 7532}
+    - Class: 114
+      Script: {instanceID: 7676}
+    - Class: 114
       Script: {instanceID: 7714}
     - Class: 114
       Script: {instanceID: 7788}
@@ -322,6 +372,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8316}
     - Class: 114
+      Script: {instanceID: 8492}
+    - Class: 114
       Script: {instanceID: 8612}
     - Class: 114
       Script: {instanceID: 8802}
@@ -329,6 +381,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8854}
     - Class: 114
       Script: {instanceID: 9046}
+    - Class: 114
+      Script: {instanceID: 9226}
     - Class: 114
       Script: {instanceID: 9322}
     - Class: 114
@@ -346,6 +400,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1450,7 +1506,7 @@ ScriptsOnlyBuild:
     className: DwellHandler
   - hash:
       serializedVersion: 2
-      Hash: d8e8809f09531e48bed98b3726059947
+      Hash: 358a6d0e4a8632ea155cff1326004594
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ModelSelector
