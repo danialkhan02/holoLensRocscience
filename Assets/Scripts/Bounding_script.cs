@@ -25,7 +25,18 @@ public class Bounding_script : MonoBehaviour
     }
 
     Vector3 RandomVector() {
-        return new Vector3(Random.value,Random.value, Random.value);
+
+        float rand1= Random.value;
+        rand1 = rand1 *( ((Random.value*10)%2 )*2 -1);
+        rand1 = rand1 / 3;
+        float rand2= Random.value;
+        rand2 = rand2 *( ((Random.value*10)%2 )*2 -1);
+        rand2 = rand2 /3;
+        float rand3= Random.value;
+        rand3 = rand3 *( ((Random.value*10)%2 )*2 -1);
+        rand3 = rand3/3;
+
+        return new Vector3(rand1,rand2,rand3);
     }
 
 }

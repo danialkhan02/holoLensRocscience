@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 8747920816514686343}
   - component: {fileID: 8747920816514686340}
   - component: {fileID: 7673188584573659436}
+  - component: {fileID: 10672614218764647}
   m_Layer: 0
   m_Name: Mini_boulder
   m_TagString: Boulder
@@ -317,3 +318,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &10672614218764647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8747920816860165002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f63e28566a46b4aa4a90f9211a0922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

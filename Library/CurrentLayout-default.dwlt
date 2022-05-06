@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 148
+  controlID: 36
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 44700000
       m_LastClickedID: 0
-      m_ExpandedIDs: 06eaffff26eaffffeaedffffcafaffff7c870000
+      m_ExpandedIDs: 1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,13 +510,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22712407, y: 0.1648025, z: -0.038912643, w: 0.95913666}
+    m_Target: {x: 0.19643329, y: 0.26601365, z: -0.055327654, w: 0.9422277}
     speed: 2
-    m_Value: {x: 0.22710109, y: 0.16478583, z: -0.038908705, w: 0.9590396}
+    m_Value: {x: 0.19641332, y: 0.2659866, z: -0.05532203, w: 0.94213194}
   m_Size:
-    m_Target: 0.73781204
+    m_Target: 1.347136
     speed: 2
-    m_Value: 0.73781204
+    m_Value: 1.347136
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -579,22 +579,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/New Folder
+    - Assets/Avalanche
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/New Folder
+  - Assets/Avalanche
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\holoLensRocscience
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 60970000
-    m_LastClickedID: 38752
-    m_ExpandedIDs: 000000000e750000107500001275000014750000187500001a750000
+    scrollPos: {x: 0, y: 309.8}
+    m_SelectedIDs: ea740000
+    m_LastClickedID: 29930
+    m_ExpandedIDs: 00000000ca740000cc740000ce740000d0740000d2740000d4740000e8740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,7 +622,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e75000010750000127500001475000016750000187500001a750000
+    m_ExpandedIDs: 00000000ca740000cc740000ce740000d0740000d2740000d4740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -761,7 +761,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 552.00006
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -822,7 +822,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 34584
+  m_LastInspectedObjectInstanceID: 28740
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
