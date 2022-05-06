@@ -7,6 +7,7 @@ public class avalanche : MonoBehaviour
 
     public GameObject[] rocks;
     public int toggle = 1;
+    public int several = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,13 @@ public class avalanche : MonoBehaviour
     {
         //toggle = gameObject.GetComponentsInChildren<toggle_script>().status;
         if(toggle == 1){
-            Instantiate(rocks[0]);
+            if(several <=225){
+                Instantiate(rocks[0]);
+                several++;
+            }
         } else {
             Destroy(GameObject.FindWithTag("Boulder"));
+            several =0;
         }
         
     }
