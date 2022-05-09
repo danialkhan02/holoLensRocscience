@@ -6,11 +6,13 @@ public class tutorialVideo : MonoBehaviour
 {
 
     
-    public int toggle = 1;
-    
+    public int toggle = 0;
+    public GameObject[] canvas;
+
     // Start is called before the first frame update
     void Start()
     {
+        
 
     }
 
@@ -18,30 +20,25 @@ public class tutorialVideo : MonoBehaviour
     void Update()
     {
         //toggle = gameObject.GetComponentsInChildren<toggle_script>().status;
-        if (toggle == 1)
-        {
-           
-            Instantiate(GameObject.FindWithTag("Video"));
-                
-            
-        }
-        else
-        {
-            Destroy(GameObject.FindWithTag("Video"));
-            
-        }
+        
 
     }
 
     public void state_change(int help)
     {
+        print("CHANGE");
         if (toggle == 0)
         {
+            canvas[0].SetActive(true);
+
             toggle = 1;
+            
         }
         else
         {
+            canvas[0].SetActive(false);
             toggle = 0;
+            
         }
     }
 }
