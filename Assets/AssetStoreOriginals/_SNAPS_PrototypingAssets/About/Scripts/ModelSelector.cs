@@ -55,8 +55,8 @@ public class ModelSelector : MonoBehaviour
             Destroy(GameObject.FindWithTag("Text"));
 
             models[0].SetActive(true);
-            models[0].transform.position = new Vector3(-0.188f,-0.592f,0.764f);
-            models[0].transform.localScale = new Vector3(0.002116413f,0.002116413f,0.002116413f);
+            models[0].transform.position = new Vector3(-0.188f,-0.65f,1.1f);
+            models[0].transform.localScale = new Vector3(0.0022116413f,0.0022116413f,0.0022116413f);
             
             Vector3 zero_vec = new Vector3(0,0,0);
             reset_angle.eulerAngles = zero_vec;
@@ -83,8 +83,8 @@ public class ModelSelector : MonoBehaviour
 
             Destroy(GameObject.FindWithTag("Text"));
             models[1].SetActive(true);
-            models[1].transform.position = new Vector3(-0.498f,-0.592f,1.564f);
-            models[1].transform.localScale = new Vector3(0.0003521533f,0.0003521533f,0.0003521533f);
+            models[1].transform.position = new Vector3(-0.498f,-0.592f,1.43f);
+            models[1].transform.localScale = new Vector3(0.0004521533f,0.0004521533f,0.0004521533f);
 
             Vector3 zero_vec = new Vector3(0,0,0);
             reset_angle.eulerAngles = zero_vec;
@@ -111,8 +111,8 @@ public class ModelSelector : MonoBehaviour
             Destroy(GameObject.FindWithTag("Text"));
 
             models[2].SetActive(true);
-            models[2].transform.position = new Vector3(-0.7f,-0.592f,1.064f);
-            models[2].transform.localScale = new Vector3(0.09336783f,0.09336783f,0.09336783f);
+            models[2].transform.position = new Vector3(-0.3f,-0.592f,1.264f);
+            models[2].transform.localScale = new Vector3(0.1f,0.1f,0.1f);
 
             Vector3 d_vec = new Vector3(-90,0,0);
             reset_angle.eulerAngles = d_vec;
@@ -141,8 +141,8 @@ public class ModelSelector : MonoBehaviour
             Destroy(GameObject.FindWithTag("Text"));
             
             models[3].SetActive(true);
-            models[3].transform.position = new Vector3(-0.188f,-1.922f,1.064f);
-            models[3].transform.localScale = new Vector3(2,2,2);
+            models[3].transform.position = new Vector3(-0.288f,-1.8f,1.264f);
+            models[3].transform.localScale = new Vector3(3,3,3);
 
 
             Vector3 zero_vec = new Vector3(0,0,0);
