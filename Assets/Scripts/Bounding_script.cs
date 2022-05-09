@@ -9,7 +9,7 @@ public class Bounding_script : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        //rb.velocity = RandomVector(); Don't want initial velocity for large boulders
+        rb.velocity = RandomVector();
 
     }
 

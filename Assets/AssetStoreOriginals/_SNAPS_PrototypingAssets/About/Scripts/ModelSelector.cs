@@ -83,7 +83,7 @@ public class ModelSelector : MonoBehaviour
 
             Destroy(GameObject.FindWithTag("Text"));
             models[1].SetActive(true);
-            models[1].transform.position = new Vector3(-0.698f,-0.592f,1.464f);
+            models[1].transform.position = new Vector3(-0.498f,-0.592f,1.564f);
             models[1].transform.localScale = new Vector3(0.0003521533f,0.0003521533f,0.0003521533f);
 
             Vector3 zero_vec = new Vector3(0,0,0);
