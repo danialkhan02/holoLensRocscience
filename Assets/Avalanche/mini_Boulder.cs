@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bounding_script : MonoBehaviour
+public class mini_Boulder : MonoBehaviour
 {
     public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        //rb.velocity = RandomVector(); Don't want initial velocity for large boulders
+        rb.velocity = RandomVector();
 
     }
 
@@ -19,22 +19,29 @@ public class Bounding_script : MonoBehaviour
         double current_pos = transform.position.y;
 
         if(current_pos <= -20){
-            transform.position = new Vector3(-0.395f,0.32f,-1.194f);
-            rb.velocity = new Vector3(0,0,0);
+            Destroy (this.gameObject);
         }
     }
 
     Vector3 RandomVector() {
 
         float rand1= Random.value;
-        rand1 = rand1 *( ((Random.value*10)%2 )*2 -1);
-        rand1 = rand1 / 3;
+        float negative = (Mathf.Round(Random.value*10) %2) * (-1);
+        if(negative ==0){
+            rand1 = rand1 *0.5f;
+        } else {
+            rand1 = rand1 * (-0.5f);
+        }
         float rand2= Random.value;
-        rand2 = rand2 *( ((Random.value*10)%2 )*2 -1);
-        rand2 = rand2 /3;
+        rand2 = rand2 /6;
+
         float rand3= Random.value;
-        rand3 = rand3 *( ((Random.value*10)%2 )*2 -1);
-        rand3 = rand3/3;
+        negative = (Mathf.Round(Random.value*10) %2) * (-1);
+        if(negative ==0){
+            rand3 = rand3 *0.5f;
+        } else {
+            rand3 = rand3 * (-0.5f);
+        }
 
         return new Vector3(rand1,rand2,rand3);
     }
