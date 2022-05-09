@@ -5096,6 +5096,11 @@ MonoBehaviour:
     volume: 1
     pitch: 0.8
     source: {fileID: 0}
+  - name: RaindSound
+    clip: {fileID: 8300000, guid: 4bdf08fe45418474aa1123eeac803c30, type: 3}
+    volume: 1
+    pitch: 0.8
+    source: {fileID: 0}
 --- !u!4 &1541436357
 Transform:
   m_ObjectHideFlags: 0

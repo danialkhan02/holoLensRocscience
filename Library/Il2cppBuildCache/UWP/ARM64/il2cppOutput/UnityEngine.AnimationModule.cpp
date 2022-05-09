@@ -2675,6 +2675,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnimationScriptPlayable_Equals_m1705DCC8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedReference__ctor_m7E082F3A77162102770CCB781B5EAE437AB373CD (TrackedReference_t17AA313389C655DCF279F96A2D85332B29596514 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetFloatID(System.Int32,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetFloatID_m277DFF321B75EE54886A5BD1FECF7E3E3CE5D4B2 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, float ___value1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Animator::GetBoolID(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetBoolID(System.Int32,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBoolID_m86E6B6BAB2AF50CF90D6E6DA56579AF08E5A9342 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, bool ___value1, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetIntegerID(System.Int32,System.Int32)
@@ -4039,6 +4041,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetFloat_m22777620F85E25691F57A
 		return;
 	}
 }
+// System.Boolean UnityEngine.Animator::GetBool(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Animator_GetBool_m48FAF6A6341ADD7A9790DA1C59BA478A9048EB22 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___id0;
+		bool L_1;
+		L_1 = Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
 // System.Void UnityEngine.Animator::SetBool(System.Int32,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBool_m0F0363B189AAB848FA3B428986C6A01470B3E38C (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, bool ___value1, const RuntimeMethod* method)
 {
@@ -4200,6 +4220,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBoolID_m86E6B6BAB2AF50CF90D6
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Animator_SetBoolID_m86E6B6BAB2AF50CF90D6E6DA56579AF08E5A9342_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::SetBoolID(System.Int32,System.Boolean)");
 	_il2cpp_icall_func(__this, ___id0, ___value1);
+}
+// System.Boolean UnityEngine.Animator::GetBoolID(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, const RuntimeMethod* method)
+{
+	typedef bool (*Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0_ftn) (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 *, int32_t);
+	static Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Animator_GetBoolID_m1C533DC66ECF19A118119773458D0F018F2238F0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animator::GetBoolID(System.Int32)");
+	bool icallRetVal = _il2cpp_icall_func(__this, ___id0);
+	return icallRetVal;
 }
 // System.Void UnityEngine.Animator::SetIntegerID(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetIntegerID_m935BD3F26317A508AA8EE0642E4D3F0A083673F6 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, int32_t ___id0, int32_t ___value1, const RuntimeMethod* method)

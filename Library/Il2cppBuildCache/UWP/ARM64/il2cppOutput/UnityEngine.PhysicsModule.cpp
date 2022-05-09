@@ -30,6 +30,8 @@ struct CapsuleCollider_t89745329298279F4827FE29C54CC2F8A28654635;
 struct CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E;
 // UnityEngine.Collider
 struct Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02;
+// UnityEngine.Collision
+struct Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0;
 // UnityEngine.Component
 struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684;
 // UnityEngine.Mesh
@@ -914,6 +916,24 @@ struct Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0_marshaled_com
 	ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 * ___m_LegacyContacts_6;
 };
 
+// UnityEngine.CollisionFlags
+struct CollisionFlags_t435530D092E80B20FFD0DA008B4F298BF224B903 
+{
+public:
+	// System.Int32 UnityEngine.CollisionFlags::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(CollisionFlags_t435530D092E80B20FFD0DA008B4F298BF224B903, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.ContactPoint
 struct ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 
 {
@@ -1501,6 +1521,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_get_size_Injected_mC9ABFED6F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_set_size_Injected_m7A8B807F4AB573BF955610F55AAD372FF868C967 (BoxCollider_tA530691AC1A3C9FE6428F68F98588FCB1BF9AAA5 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.CapsuleCollider::get_center_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_get_center_Injected_mBDF07E6DE932FBCAF0AA6F167EB993BE03BE6872 (CapsuleCollider_t89745329298279F4827FE29C54CC2F8A28654635 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___ret0, const RuntimeMethod* method);
+// UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___motion0, const RuntimeMethod* method);
 // System.Void UnityEngine.Collider::ClosestPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_ClosestPoint_Injected_m6D72FF73D51838EE47234CB4D6234521C08B780D (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___ret1, const RuntimeMethod* method);
 // System.Void UnityEngine.Collider::get_bounds_Injected(UnityEngine.Bounds&)
@@ -1821,6 +1843,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_get_center_Injected_mBDF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.CollisionFlags UnityEngine.CharacterController::Move(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE0EBC32C72A0BEC18EDEBE748D44309A4BA32E60 (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___motion0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0;
+		L_0 = CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D(__this, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&___motion0), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___motion0, const RuntimeMethod* method)
+{
+	typedef int32_t (*CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D_ftn) (CharacterController_tCCF68621C784CCB3391E0C66FE134F6F93DD6C2E *, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *);
+	static CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CharacterController_Move_Injected_m6A2168A4CDC70CB62E4A4DCB15A74133E8C6C46D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)");
+	int32_t icallRetVal = _il2cpp_icall_func(__this, ___motion0);
+	return icallRetVal;
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1954,6 +1995,30 @@ IL2CPP_EXTERN_C void Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0_marshal
 IL2CPP_EXTERN_C void Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0_marshal_com_cleanup(Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0_marshaled_com& marshaled)
 {
 }
+// UnityEngine.Collider UnityEngine.Collision::get_collider()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * Collision_get_collider_m0AC4446E6B9168A0FB19DA376559C812E43779F8 (Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0 * __this, const RuntimeMethod* method)
+{
+	Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * V_0 = NULL;
+	{
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_0 = __this->get_m_Collider_3();
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_1 = V_0;
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -92,6 +92,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModule_Co
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VFXModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VideoModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_WindModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
@@ -103,9 +104,11 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_Conformance
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ZibraAILiquid_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ZibraAILiquid_Samples_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[86] = 
+const Il2CppCodeGenModule* g_CodeGenModules[89] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_I18N_CJK_CodeGenModule),
@@ -181,6 +184,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[86] =
 	(&g_UnityEngine_VFXModule_CodeGenModule),
 	(&g_UnityEngine_VRModule_CodeGenModule),
 	(&g_UnityEngine_VideoModule_CodeGenModule),
+	(&g_UnityEngine_WindModule_CodeGenModule),
 	(&g_UnityEngine_XRModule_CodeGenModule),
 	(&g_Unity_InputSystem_CodeGenModule),
 	(&g_Unity_TextMeshPro_CodeGenModule),
@@ -192,25 +196,27 @@ const Il2CppCodeGenModule* g_CodeGenModules[86] =
 	(&g_Unity_XR_OpenXR_Features_MockRuntime_CodeGenModule),
 	(&g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule),
 	(&g_WindowsRuntimeMetadata_CodeGenModule),
+	(&g_ZibraAILiquid_CodeGenModule),
+	(&g_ZibraAILiquid_Samples_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	6,
+	7,
 	g_ReversePInvokeWrapperPointers,
-	44511,
+	46019,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	7111,
+	7268,
 	g_Il2CppInvokerPointers,
-	1716,
+	1774,
 	g_UnresolvedVirtualMethodPointers,
-	6460,
+	6628,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	86,
+	89,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

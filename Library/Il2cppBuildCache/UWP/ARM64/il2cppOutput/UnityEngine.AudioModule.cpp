@@ -166,6 +166,8 @@ struct AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE;
 struct AudioHighPassFilter_t0B178B59B995048CBBE7AF321FC5C3614A475D08;
 // UnityEngine.AudioLowPassFilter
 struct AudioLowPassFilter_t5FFDAD1A328004D17DD5E28FEA2F5468E6C2AC06;
+// UnityEngine.Audio.AudioMixerGroup
+struct AudioMixerGroup_tDF20E4C7597CA1C491BEA95A530E9CA19AE37F1F;
 // UnityEngine.Experimental.Audio.AudioSampleProvider
 struct AudioSampleProvider_tD8B613D55D09D6CE86B851A5D8F33560FFCC705B;
 // UnityEngine.AudioSource
@@ -1132,6 +1134,15 @@ public:
 	{
 		___m_Handle_0 = value;
 	}
+};
+
+
+// UnityEngine.Audio.AudioMixerGroup
+struct AudioMixerGroup_tDF20E4C7597CA1C491BEA95A530E9CA19AE37F1F  : public Object_tF2F3778131EFF286AF62B7B013A170F95A91571A
+{
+public:
+
+public:
 };
 
 
@@ -2264,6 +2275,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioLowPassFilter_set_cutoffFrequency_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // UnityEngine.Playables.PlayableHandle UnityEngine.Audio.AudioMixerPlayable::GetHandle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayableHandle_t50DCD240B0400DDAD0822C13E5DBC7AD64DC027A  AudioMixerPlayable_GetHandle_m76EFC486A7639C4842F590F544B60988CF27BB17 (AudioMixerPlayable_t80531461F1E238E237D7BB2BAE7E031ABDE95C4A * __this, const RuntimeMethod* method)
 {
@@ -2591,6 +2610,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mD1F50F7BA6EA3AF25B
 	static AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_outputAudioMixerGroup(UnityEngine.Audio.AudioMixerGroup)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_outputAudioMixerGroup_mE63B2B8C7E3F4E8C670E2474D1F22F9864DB71C8 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, AudioMixerGroup_tDF20E4C7597CA1C491BEA95A530E9CA19AE37F1F * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AudioSource_set_outputAudioMixerGroup_mE63B2B8C7E3F4E8C670E2474D1F22F9864DB71C8_ftn) (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B *, AudioMixerGroup_tDF20E4C7597CA1C491BEA95A530E9CA19AE37F1F *);
+	static AudioSource_set_outputAudioMixerGroup_mE63B2B8C7E3F4E8C670E2474D1F22F9864DB71C8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_outputAudioMixerGroup_mE63B2B8C7E3F4E8C670E2474D1F22F9864DB71C8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_outputAudioMixerGroup(UnityEngine.Audio.AudioMixerGroup)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.AudioSource::Play()

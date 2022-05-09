@@ -106,7 +106,10 @@
         "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
         "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
         "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/UnityEngine.WindModule.dll",
         "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/ZibraAILiquid.dll",
+        "C:/holoLensRocscience/Temp/StagingArea/Data/Managed/ZibraAILiquid.Samples.dll",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [

@@ -1,4 +1,5 @@
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
+-a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\ZibraAILiquid.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll"
@@ -38,6 +39,7 @@
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.OpenXR.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Unity.ProBuilder.KdTree.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll"
+-a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\ZibraAILiquid.Samples.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Unity.ProBuilder.Stl.dll"
 -a="C:\holoLensRocscience\Library\PlayerScriptAssemblies\Unity.XR.OpenXR.dll"

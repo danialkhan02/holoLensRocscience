@@ -22,19 +22,22 @@ public class rainfall : MonoBehaviour
 
     }
 
+
+
     public void state_change(int help)
     {
         print("CHANGE");
         if (toggle == 0)
         {
             rain_fall.SetActive(true);
-
+            FindObjectOfType<AudioManager>().Play("RaindSound");
             toggle = 1;
             
         }
         else
         {
             rain_fall.SetActive(false);
+            FindObjectOfType<AudioManager>().Stop("RaindSound");
             toggle = 0;
             
         }
