@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Model
   - Text
+  - Arrow
+  - Boulder
+  - Video
   layers:
   - Default
   - TransparentFX
