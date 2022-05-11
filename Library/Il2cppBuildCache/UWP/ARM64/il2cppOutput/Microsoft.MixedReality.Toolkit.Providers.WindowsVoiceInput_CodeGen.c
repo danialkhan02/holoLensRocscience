@@ -224,9 +224,9 @@ static const int32_t s_InvokerIndices[55] =
 	4016,
 	2256,
 	4854,
-	7259,
+	7261,
 	4946,
-	7259,
+	7261,
 	4946,
 	4747,
 	4747,
@@ -259,7 +259,7 @@ static const int32_t s_InvokerIndices[55] =
 	3942,
 	4056,
 	803,
-	7259,
+	7261,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Providers_WindowsVoiceInput_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_WindowsVoiceInput_CodeGenModule;
